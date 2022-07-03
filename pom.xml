@@ -23,6 +23,7 @@
 
     <modules>
         <module>GraphQL-001</module>
+        <module>GraphQL-002</module>
     </modules>
 
 

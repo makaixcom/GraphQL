@@ -1,0 +1,21 @@
+type Query{
+    hello: String
+    helloWithName( name : String ): String
+    userById( id:ID ) : User
+    users: [User]
+    users1: [User]
+    usersCar:[User]
+
+}
+
+type User{
+    id: ID
+    name: String
+    vehicle: Vehicle
+}
+
+type Vehicle{
+    id: ID
+    vehiclePlate: String
+}
+
