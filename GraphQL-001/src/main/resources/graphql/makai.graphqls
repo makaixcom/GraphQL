@@ -1,0 +1,9 @@
+type Query {
+  getById(id: ID): User
+  findAll: [User]
+}
+
+type User {
+  id: ID
+  username: String
+}
